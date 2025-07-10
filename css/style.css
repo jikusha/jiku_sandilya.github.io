@@ -9467,6 +9467,12 @@ textarea.form-control {
 .profile-img-1:hover {
   transform: scale(1.05);
 }
+
+@media (max-width: 768px) {
+  .about-img-1 {
+    display: none;
+  }
+}
     
 .block-27 ul {
   padding: 0;
@@ -9574,7 +9580,7 @@ textarea.form-control {
       letter-spacing: 1px;
       font-weight: 600; }
 
-      
+
 /* Blog*/
 .post-info {
   font-size: 12px;
