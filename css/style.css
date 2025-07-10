@@ -9376,6 +9376,98 @@ textarea.form-control {
   .block-6 .media-body p {
     font-size: 16px; }
 
+    .skill-mf {
+      background: rgba(18, 18, 18, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 16px;
+      padding: 40px;
+      backdrop-filter: blur(6px);
+      color: #ccc;
+    }
+    
+    .title-s {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ffcb6b;
+      border-bottom: 2px solid #333;
+      padding-bottom: 8px;
+      margin-bottom: 24px;
+    }
+    
+    .skill-group {
+      margin-bottom: 20px;
+    }
+    
+    .skill-category {
+      font-weight: 600;
+      color: #4fc3f7;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    
+    .skill-items {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    
+    .skill-pill {
+      background: #1e1e1e;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 14px;
+      color: #dcdcdc;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+    
+    .skill-pill:hover {
+      background: #2e2e2e;
+      transform: scale(1.05);
+      color: #ffffff;
+      box-shadow: 0 0 8px rgba(0, 191, 255, 0.2);
+    }
+
+    .company-name {
+      font-weight: 600;
+      font-size: 16px;
+      color: #58a6ff; /* Brighter highlight */
+    }
+    
+    .location {
+      font-weight: 400;
+      font-size: 14px;
+      color: #aaaaaa; /* Muted for secondary info */
+      margin-left: 4px;
+    }
+    
+.company-name,
+.location {
+  text-transform: none !important;
+}
+
+.about-img-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: -100px; /* Move it higher */
+}
+
+.profile-img-1 {
+  width: 620px;  /* Larger image */
+  height: 620px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ffcb6b;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.profile-img-1:hover {
+  transform: scale(1.05);
+}
+    
 .block-27 ul {
   padding: 0;
   margin: 0; }
@@ -9671,6 +9763,7 @@ textarea.form-control {
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
+
 
 @-webkit-keyframes loader-rotate {
   100% {
